@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  color: white;
+
+}
+body{
+  background-image : url(Engineer_Sami_background_for_restaurant_website_main_colors_dark_0b421903-15de-4f9a-9cfa-9c70eba6dc72.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.top-bar{
+background-color: #252525;
+width: 100%;
+height: 200px;
+display: flex;
+}
+.top-bar-left{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.top-bar-right{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  font-size: 70px;
+  margin-top: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+  margin-left: 10%;
+}
+.background{
+  width: 100%;
+}
+.main{
+  border-radius: 48px;
+ position: relative;
+ background: url(https://media.istockphoto.com/id/1396910907/vector/carbon-rhombus-background-metal-texture-with-cells-modern-dark-wallpaper-with-holes-abstract.jpg?s=612x612&w=0&k=20&c=TNIr45ZjXN42koQ7_x6FXKQ7gERyCqJZSs3ikFGYedY=);
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+ width: 40%;
+  height: 550px;
+  margin-top: 5%;
+  margin-left: 50px;
+  display: flex;
+}
+.main:before{
+  content:'' ;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+  
+}
+.main:after{
+  content:'' ;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+.main:before,
+.main:after
+{
+  border-radius: 48px;
+  background: linear-gradient(235deg,#252525,rgb(255, 145, 0),rgb(255, 145, 0),#252525);
+  
+}
+.food{
+  height: 550px;
+  width: 50%;
+  float: left;
+  border-radius: 48px;
+  
+}
+.title{
+  margin-left: 12%;
+  margin-top: 225px;
+}

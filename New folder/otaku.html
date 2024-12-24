@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otaku</title>
+    <link rel="stylesheet" href="otaku.css">
+</head>
+<body>
+    <div class="top-bar">
+        <p ><img src="https://i.pinimg.com/236x/62/48/03/624803bee204bc2b7761449dcc502821.jpg" class="icon"><span class="word-Otaku">Ota<span class="otaku">ku</span></span></p>
+        <div class="search1"><span class="search-btn" onclick="welcome()">🔍</span><input type="search" placeholder="search" class="search" id="search"><span class="mic">🎙️</span></div>
+        <p class="top-heart">❤️<span class="num-of-heart" id="num-of-heart">2</span></p>
+    </div>
+    <div class="sec-bar">
+        <p class="Home">Home</p>
+        <p class="menu">Category</p>
+        <p class="menu">Contact Us</p>
+        <p class="menu">About</p>
+        <button class="btn">Sign in</button>
+    </div>
+    <div class="slider-main">
+        <button class="left" onclick="backImage()">⇐</button>
+    <img src="./bd-item-1.jpg" class="slider" id="myimage">
+    <button class="play" id="play" onclick="hideButton()">Watch Now</button>
+    <button class="right" onclick="changeImage()">⇒</button>
+</div>
+    <div class="animes">
+        <div class="trend-main">
+            <p class="trend-title">Treding Now</p>
+            
+            <div class="trend-up">
+                <div><img src="./Attack on Titan.jpg" class="movie"><p class="title">Attack on Titan <span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+                <div><img src="./Steinsgate.jpg" class=" movie"><p class="title">SteinsGate<span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+                <div><img src="./One Piece.jpg" class=" movie"><p class="title">OnePice<span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+            </div>
+            <div class="trend-down">
+                <div><img src="./Dragon Ball.jpg" class=" movie"><p class="title">DragonBall<span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+                <div><img src="./Naruto.jpg" class=" movie"><p class="title">Naruto<span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+                <div><img src="./Hunter x Hunter.jpg" class=" movie"><p class="title">Hunter<span class="Like" onclick="incrementText()">❤️</span></p><button class="Showmore">Show More</button></div>
+            </div>
+        </div>
+        <div class="top-view">
+            <p class="Top-view-title">Top Views</p>
+    <img src="./tv-1.jpg" class="top-view-img">
+    <img src="./tv-3.jpg" class="top-view-img">
+    <img src="./tv-4.jpg" class="top-view-img">
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="contacts-top">
+            <div class="Website-Info"><h1>Website Info</h1><br><span class="word-Otaku-info">Ota</span><span class="otaku-info">ku</span><br><span class="About">About Us</span></div>
+            <div class="Website-Info"><h1>Important Links</h1><br><span class="word-normal">Anime List</span><br><span class="About1">Anime News</span></div>
+            <div class="Website-Info"><h1>Legal Info&Policie</h1><br><span class="word-normal">Privacy Policy</span><br><span class="About">Terms of Use</span></div>
+            <div class="Website-Info"><h1>Help and Support</h1><br><span class="word-normal1">Technical Support</span><br><span class="About">FAQ</span></div>
+        </div>
+        <div class="contacts-down">
+            <div><h1>Social Media Link</h2>
+            <img src="./image_2024-10-17_124400844-removebg-preview.png" class="Social"></div>
+            <div><h1>Copyrights Info</h2>
+            <p class="copyright">Copyright @2024 All rights <br> reserved I This template is <br> made with by <span class="Copy-right-link">Axsos Academy</span></p></div>
+            <div class="contact"><h1>Contact Us</h2>
+            <div><input type="text" placeholder="email@axsos.academy" class="text"> </div>
+            <div><input type="text" placeholder="yourname" class="text"></div>
+            <button class="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="otaku.js"></script>
+</body>
+</html>

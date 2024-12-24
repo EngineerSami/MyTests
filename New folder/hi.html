@@ -1,0 +1,141 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Login Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0052cc;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .background img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .login-container {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            height: 600px;
+        }
+        .login-container h1 {
+            margin-bottom: 20px;
+            color: white;
+        }
+        .login-container input[type="email"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #00000060;
+        }
+        ::placeholder{
+            color: white;
+        }
+        .login-container a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #00000060;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container .social-login {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .login-container .social-login a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            text-decoration: none;
+        }
+        .login-container .register {
+            color: white;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="background">
+   <img alt="Background with abstract shapes and blue gradient" height="1080" src="Screenshot_20.png" width="1920"/>
+  </div>
+  <div class="login-container">
+   <h1>
+    <img src="download (1).png" height="200" width="200">
+   </h1>
+   <h2>
+    Login
+   </h2>
+   <input placeholder="username@gmail.com" type="email"/>
+   <input placeholder="Password" type="password"/>
+   <a href="#">
+    Forgot Password?
+   </a>
+   <button>
+    Sign in
+   </button>
+   <p>
+    or continue with
+   </p>
+   <div class="social-login">
+    <a href="#">
+     <i class="fab fa-google">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-apple">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+   </div>
+   <p class="register">
+    Don't have an account yet?
+    <a href="#">
+     Register for free
+    </a>
+   </p>
+  </div>
+ </body>
+</html>

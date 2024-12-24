@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DojoWeather</title>
+<link rel="stylesheet" href="weather.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<head>
+
+
+
+<body>
+
+    <div class="top-bar">
+        <div class="nav-links">
+            <div class="left-top-bar">
+                <h1>DojoWeather</h1>
+            </div>
+            
+                <ul class="right-top-bar">
+                    <li onclick="alert_nameCity()">Burbank </li>
+                    <li onclick="alert_nameCity()"> Chicago </li>
+                    <li onclick="alert_nameCity()"> Dallas </li>    
+                </ul>
+
+            
+        </div>
+    </div>
+    <div class="mid-bar">
+        <div class="left-mid-bar">
+
+            <h2>San Jose</h2>
+        </div>
+        <div class="right-mid-bar">
+            <p class="left-mid-bar-par">show temperature in <select id="convert" onchange=update(this)>
+                    <option value="celcius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select></p>
+        </div>
+    </div>
+    <div class="mid-main">
+        <div class="weather">
+            <h3>Sun</h3>
+            <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/a20/383/077/some_rain.png"
+                class="weather-pic">
+            <p class="weather-mode">some rain</p>
+            <div class="weather-nums">
+                <p class="max"><span class="cur">26</span>&#xb0;</p>
+                <p class="min"> <span class="cur">21</span>&#xb0;</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h3>Mon</h3>
+            <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/a27/8a0/197/some_sun.png"
+                class="weather-pic">
+            <p class="weather-mode">some sun</p>
+            <div class="weather-nums">
+                <p class="max"><span class="cur">24</span>&#xb0;</p>
+                <p class="min"><span class="cur">18</span>&#xb0;</p>
+            </div>
+
+        </div>
+        <div class="weather">
+            <h3>Tue</h3>
+            <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/50b/81d/c2e/some_clouds.png"
+                class="weather-pic">
+            <p class="weather-mode">some cloud</p>
+            <div class="weather-nums">
+                <p class="max"><span class="cur">27</span>&#xb0;</p>
+                <p class="min"><span class="cur">19</span>&#xb0;</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h3>Wen</h3>
+            <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/a27/8a0/197/some_sun.png"
+                class="weather-pic">
+            <p class="weather-mode">some sun</p>
+            <div class="weather-nums">
+                <p class="max"><span class="cur">21</span>&#xb0;</p>
+                <p class="min"><span class="cur">16</span>&#xb0;</p>
+            </div>
+
+        </div>
+        <div class="cookie">
+            <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/2f6/cf1/ddd/cookie.png"
+                class="cookie-img">
+            <div class="info">
+                <h6>Stop! Cookie Time</h6>
+                <snap>We use cookies (sadly not the edible ones) to personalize content and ads,
+                    to provide social media features and to analyze our traffic.
+                    <a href="#">Read more...</a>
+                </snap>
+            </div>
+            <button class="accept" onclick="rmv_cookie(this)">I Accept</button>
+        </div>
+
+
+        <script src="weather.js"></script>
+</body>
+
+</html>

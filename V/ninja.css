@@ -1,0 +1,133 @@
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 100% ;
+    height:950px ;
+    display: flex;
+    justify-content: center;
+}
+.main1{
+    background-color: rgb(255, 255, 255);
+    width: 1500px ;
+    height:950px ;
+   
+}
+.bar{
+    background-color: #cccccc;
+    width: 1500px ;
+    height: 150px ;
+    display: flex;
+    justify-content: space-between ;
+    font-family: cursive;
+}
+.search{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    border: 3px solid black;
+    font-family: cursive;
+    font-size: 20px;
+}
+h1{
+    margin-top: 25px;
+    font-size: 70px;
+    margin-left: 50px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    background-color:#2c77df ;
+    box-shadow: 5px 4px 8px black; 
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    font-family: cursive;
+
+}
+.box1{
+    width: 800px;
+    height: 385px;
+    background-color: blue;
+    border: 5px solid;
+    display: flex;
+    margin-top: 30px;
+    font-family: cursive;
+}
+.box2{
+    width: 800px;
+    height: 385px;
+    background-color: rgb(0, 255, 60);
+    margin-top: 30px;
+    border: 5px solid;
+    display: flex;
+    font-family: cursive;
+}
+.part1{
+    width: 250px;
+    height: 385px;
+    background-color: white;
+}
+h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+p{
+    margin-left: 35px;
+    font-size: 30px;
+    margin-top: -20px;
+}
+samp{
+    margin-left: 25px;
+    font-family: cursive;
+}
+.btn1{
+    width: 200px;
+    height: 75px;
+    
+    background-color:#fed966 ;
+    box-shadow: 5px 4px 8px black; 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.part2{
+    width: 550px;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+  
+    
+
+}
+.par1{
+    margin-top: 25%;
+    font-size: 35px ;
+}
+.box3{
+    width: 590px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    margin-left:60% ;
+    margin-top: -54.7%;
+    border: 5px solid;
+    font-family: cursive;
+}
+h3{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.btn2{
+    width: 500px;
+    height: 100px;
+    background-color: #92c47d;
+    color: black;
+    font-size: 30px;
+    margin-left: 40px;
+    box-shadow: 5px 4px 8px black; 
+    margin-top: -30px;
+    font-family: cursive;
+}

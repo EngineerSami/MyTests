@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="download (1).png">
+    <title>Freelancer Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+            background-color: #f9f9f9;
+        }
+        
+        .signup-form {
+            width: 400px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .signup-form h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .signup-form input, 
+        .signup-form select, 
+        .signup-form button, 
+        .signup-form textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .signup-form textarea {
+            resize: none;
+        }
+        .signup-form button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 30%;
+        }
+        .signup-form button:hover {
+            background: #0056b3;
+        }
+        .job-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .job-row select {
+            flex: 1;
+        }
+        .sign{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+        <h1>Freelancer Sign UP</h1>
+        <form action="#" method="POST">
+            <input type="text" name="first_name" placeholder="First Name..." required>
+            <input type="text" name="last_name" placeholder="Last Name..." required>
+            <input type="email" name="email" placeholder="Email..." required>
+            <input type="password" name="password" placeholder="Password..." required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password..." required>
+            <textarea name="description" rows="4" placeholder="Description yourself..." required></textarea>
+            <div class="job-row">
+                <select name="job_category">
+                    <option value="" disabled selected>Choose What Job You can do</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Electricity</option>
+                    <option value="writer">Painting</option>
+                </select>
+                <button type="button"class="sign">+</button>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

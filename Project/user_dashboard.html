@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .profile-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        height: 30%;
+        width: 250px;
+        margin-top: 10%;
+      }
+
+      .profile-card img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+
+      .profile-card p {
+        margin: 10px 0;
+      }
+
+      .task-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 60%;
+        justify-content: space-between;
+        height: 10%;
+        margin-top: 10%;
+      }
+
+      .task-bar button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      .task-bar .user-info {
+        display: flex;
+        align-items: center;
+      }
+
+      .task-bar .user-info img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/VsnIoiHfV3xfW0rb8mwKjbd8zoHrscGVCPh5wnuB4VF0O8yTA.jpg"
+        alt="User profile picture"
+        width="100"
+        height="100"
+      />
+      <p>اسم: {{user.name}}</p>
+      <p>الموقع: {{user.address}}</p>
+      <p>الرقم: {{user.phone_number}}</p>
+      <p>بريد إلكتروني: {{user.gmail}}</p>
+    </div>
+
+    <div class="task-bar">
+      <button>Add New Task</button>
+      <div class="user-info">
+        <span>User Name</span>
+        <img
+          src="https://storage.googleapis.com/a1aa/image/VsnIoiHfV3xfW0rb8mwKjbd8zoHrscGVCPh5wnuB4VF0O8yTA.jpg"
+          alt="User profile picture"
+          width="50"
+          height="50"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    border: none;
+    color: white;
+ 
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.otaku{
+    color: red;
+    font-size: 100px;
+}
+.word-Otaku{
+    color: black;
+font-size: 100px;
+}
+.search{
+    width: 85%;
+    height: 70px;
+    font-size: 40px;
+    color: black;
+}
+.search1{
+    width: 25%;
+    height: 70px;
+    border: 5px solid black;
+    font-size: 35px;
+}
+.mic{
+    float: right;
+    font-size: 40px;
+}
+.search::placeholder{
+    color: red;
+}
+.top-heart{
+    font-size: 70px;
+}
+.num-of-heart{
+    color: black;
+    font-size: 40px;
+}
+.sec-bar{
+    background-color: rgb(158, 2, 2);
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 100px;
+    margin-top: 0px;
+    border: 5px solid rgb(252, 54, 54);
+    justify-content: space-around;
+}
+.Home{
+    font-size: 50px;
+    margin-top:15px ;
+    color: gray;
+}
+.menu{
+    font-size: 50px;
+    margin-top:15px ;
+}
+.btn{
+    width: 300px;
+    height: 70px;
+    margin-top: 15px;
+    color: black;
+    border: 5px solid black;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 1000px;
+}
+.animes{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 2000px;
+    background-color: rgb(0, 0, 0);
+}
+.trend-main{
+    width: 60%;
+    margin: 0 auto;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+}
+.trend-up{
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.trend-down{
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.movie{
+    width: 550px;
+    height: 900px;
+}
+.top-view{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin: 0 auto;
+    height: 2000px;
+    margin-left: 0;
+}
+.top-view-img{
+width: 90%;
+height: 650px;
+float: right;
+margin-top: 20px;
+}
+.trend-title{
+    color: rgb(255, 0, 0);
+font-size: 60px;
+}
+.Top-view-title{
+    color: rgb(255, 0, 0);
+font-size: 60px;
+margin-left: 100px;
+}
+.contacts{
+    width: 100%;
+    margin: 0 auto;
+    height: 900px;
+    background-color: rgb(158, 2, 2);
+    margin-left: 0;
+    margin-top: 10%;
+}
+.contacts-top{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+ 
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts-down{
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+ 
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: black;
+    font-size: 70px;
+}
+.otaku-info{
+    color: red;
+    font-size: 50px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+.word-Otaku-info{
+    color: black;
+font-size: 50px;
+margin-left: 30%;
+text-decoration: underline;
+}
+.About{
+    font-size: 40px;
+    margin-left: 29%;
+    text-decoration: underline;
+}
+.normal{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 0px;
+    
+}
+.word-normal{
+    color: rgb(255, 255, 255);
+font-size: 50px;
+margin-left: 25%;
+text-decoration: underline;
+}
+.About1{
+    font-size: 40px;
+    margin-left: 25%;
+    text-decoration: underline;
+}
+.word-normal1{
+    color: rgb(255, 255, 255);
+font-size: 50px;
+margin-left: 10%;
+text-decoration: underline;
+}
+.Social{
+    margin-top: 15%;
+}
+.copyright{
+    color: black;
+    font-size: 50px;
+    margin-top: 10%;
+    
+}
+.Copy-right-link{
+    font-size: 45px;
+    text-decoration: underline;
+}
+.text{
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    border: 5px solid black;
+}
+.send-btn{
+    width: 150px;
+    height: 70px;
+    margin-top: 15px;
+    color: black;
+    border: 5px solid black;
+    float: right;
+    
+}
+.contact{
+    width: 600px;
+}
+.Showmore{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(158, 2, 2);
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+    font-size: 30px;
+    margin-left: 16%; 
+}
+.title{
+    color: black;
+    font-size: 50px; 
+    margin-left: 15%;   
+}
+.slider-main{
+    position: relative;
+    display: flex;
+}
+.play{
+    position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(158, 2, 2);
+  border: 7px solid black;
+  color: white;
+  padding: 10px 20px;
+  width: 300px;
+  height: 100px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left:7%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px 20px;
+    width: 200px;
+    height: 100px;
+    font-size: 80px;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    left:93%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px 20px;
+    width: 200px;
+    height: 100px;
+    font-size: 80px;
+    cursor: pointer;
+}
+img.displaySlide{
+    display: block;
+}
+.search-btn{
+    font-size: 40px;
+}
+.Like{
+    font-size: 50px;
+}
